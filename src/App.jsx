@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import senaLogo from './assets/logosena.svg'
 import React from 'react';
 import Saludo from './components/saludo';
 import './App.css'
@@ -11,13 +11,11 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+      <div className='w-[150px] mx-auto flex justify-center items-center p-4'>
+        <a href="src/assets/logosena.svg" target="_blank">
+          <img src={senaLogo} className="w-[80px] h-[80px] object-contain" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        
       </div>
       <h1>Mi primera app con Vite y React</h1>
       <div className="card">
